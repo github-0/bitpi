@@ -141,7 +141,7 @@ while True:
 				drawtext_inst(value_eth, 110, RED, 160, 100)
 				sleep(0.1)
 				drawtext(value_eth, 110, L_RED, 160, 100)
-				ast_color_eth = L_RED
+				last_color_eth = L_RED
 			else:
 				drawtext_inst(value_eth, 110, GREEN, 160, 100)
 				sleep(0.1)
